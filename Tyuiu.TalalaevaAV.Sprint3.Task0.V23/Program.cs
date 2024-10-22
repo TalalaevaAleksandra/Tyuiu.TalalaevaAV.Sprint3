@@ -25,7 +25,7 @@ namespace Tyuiu.TalalaevaAV.Sprint3.Task0.V23
             int startValue = 1;
             int stopValue = 10;
 
-            Console.WriteLine("Значение переменной X="+ value);
+            Console.WriteLine("Значение переменной X= "+ value);
             Console.WriteLine("Старт шага=" + startValue);
             Console.WriteLine("Конец шага=" +stopValue);
 
