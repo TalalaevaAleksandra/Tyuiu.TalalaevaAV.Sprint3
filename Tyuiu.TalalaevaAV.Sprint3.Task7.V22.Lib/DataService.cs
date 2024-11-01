@@ -12,18 +12,11 @@ namespace Tyuiu.TalalaevaAV.Sprint3.Task7.V22.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x != 0) 
-                {
-                    y = Math.Round((Math.Sin(x) + ((Math.Cos(2 * x) / 2) - 1.5 * x)), 2);
-                    value[count] = y;
-                    count++;
-                }
-                if (x == 0)
-                {
-                    value[count]=0;
-                    count++;
-                }
-            }   
+
+                y = Math.Round((Math.Sin(x) + ((Math.Cos(2 * x) / 2) - 1.5 * x)), 2);
+                value[count] = y;
+                count++;
+            }
             return value;
         }
     }

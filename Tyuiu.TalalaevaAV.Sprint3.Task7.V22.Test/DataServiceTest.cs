@@ -18,7 +18,7 @@ namespace Tyuiu.TalalaevaAV.Sprint3.Task7.V22.Test
             wait[2] =  4.84;
             wait[3] =  1.76;
             wait[4] = 0.45;
-            wait[5] =0.00;
+            wait[5] =0.5;
             wait[6] = -0.87;
             wait[7] = -2.42;
             wait[8] =-3.88;
